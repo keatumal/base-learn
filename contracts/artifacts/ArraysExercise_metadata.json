@@ -1,0 +1,164 @@
+{
+	"compiler": {
+		"version": "0.8.28+commit.7893614a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "afterY2K",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "timestampsAfterY2K",
+						"type": "uint256[]"
+					},
+					{
+						"internalType": "address[]",
+						"name": "sendersAfterY2K",
+						"type": "address[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "_toAppend",
+						"type": "uint256[]"
+					}
+				],
+				"name": "appendToNumbers",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getNumbers",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "numbers",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "resetNumbers",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "resetSenders",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "resetTimestamps",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_unixTimestamp",
+						"type": "uint256"
+					}
+				],
+				"name": "saveTimestamp",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "senders",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"author": "anakvad.base.eth https://docs.base.org/base-learn/docs/arrays/arrays-exercise",
+			"kind": "dev",
+			"methods": {},
+			"title": "Arrays Exercise",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ArraysExercise.sol": "ArraysExercise"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ArraysExercise.sol": {
+			"keccak256": "0x03993fea2c431056961ee0054ec209e47b7af2e3e12b0562d9e5c09396f72558",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://71267f1bbf18655a6af5b6ea67d0af956e221b8155004de0aec35a58de3a0fa8",
+				"dweb:/ipfs/QmX6tA6N3pcJ83cT9LPKNkJ2exrFof7VAgpWhkrzT3ohfT"
+			]
+		}
+	},
+	"version": 1
+}

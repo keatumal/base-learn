@@ -1,2 +1,3 @@
 .states/
 contracts/artifacts/
+.prettierrc.json
